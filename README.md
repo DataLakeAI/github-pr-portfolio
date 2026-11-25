@@ -12,3 +12,13 @@ python3 pr_portfolio.py DataLakeAI --limit 10 > portfolio.md
 ```
 
 工具通过 `gh search prs` 调用 GitHub 搜索 API，按最后更新时间倒序，默认显示 30 条。查询范围为公开仓库。请直接将查询结果中需要展示的 PR 粘贴到作品集中。
+
+## 输出示例
+
+以下节选展示了一条已合并的 PR：
+
+```markdown
+# DataLakeAI 的公开 GitHub PR
+
+- [dingminhua/dsh-connect-workbuddy#304](https://github.com/dingminhua/dsh-connect-workbuddy/pull/304) · fix: 企业账号读模型目录被答成个人名册，cli 名册缺行
+```
